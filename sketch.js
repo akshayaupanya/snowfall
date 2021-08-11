@@ -25,7 +25,7 @@ function draw() {
   drawSprites();
   if(frameCount % 400 === 0){
     for( var i=0; i<100;i++){
-      sn = new Snow(random(10,700),random(0,10),3)
+      sn = new Snow(random(10,700),random(0,400),3)
       snows.push(sn);
     }
   }
